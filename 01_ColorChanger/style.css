@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid grey;
+    padding: 1rem;
+}
+nav a{
+    text-decoration: none;
+    border: 1px solid rgb(20, 20, 20);
+    margin: 0.5rem;
+    padding: 0.5rem;
+    border-radius: 0.2rem;
+    color:rgb(1, 17, 17);
+    background-color: rgb(241, 239, 239);
+}
+h1{
+    font-weight: bold;
+    font-size: 2rem;
+}
+.sectionView{
+    text-align: center;
+    margin: 100px auto 100px;
+}
+.button{
+    display: inline-block;
+    border: 2px solid black; 
+    margin: 1rem;
+    width: 113px;
+    height: 113px;
+}
+#red{
+    background-color: red;
+}
+#grey{
+    background-color: grey;
+}
+#blue{
+    background-color: blue;
+}
+#yellow{
+    background-color: yellow;
+}
+#green{
+    background-color: green;
+}
+#orange{
+    background-color: orange;
+}
+
+.footerView{
+    text-align: center;
+}
