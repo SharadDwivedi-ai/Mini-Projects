@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess The Number</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
+        integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"
+        integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+       <button class="btn-secondary p-2">Home</button>
+       <button class="btn-secondary w-25 p-2">YouTube Channel</button>
+    </nav>
+    <div id="wrapper" class="text-center"> 
+       <h1 class="text-danger">Number Guessing Game</h1>    
+       <p>Try and guess a Random number between 1 and 100</p>
+       <p>You have 10 attempts to guess the right Number</p> <br>
+       <div>
+         <form class="form">
+             <label for="guessTitle" id="guess" class="mb-3" style="font-weight: bolder; font-size: 40px;">Guess A Number</label>
+             <input type="text" id="guessNumber" class="guessNumber">
+             <input type="submit" id="numSubmit" value="Submit Guess" class="guessSubmit">
+         </form>
+       </div>
+       <div class="">
+          <p>Previous Guesses : <span class="prevGuess"></span> </p>
+          <p>Remaining Guesses : <span class="remainGuess">10</span> </p>
+          <p class="lowOrHi"></p>
+       </div>
+    </div>
+</body>
+ <script src="./script.js"></script> 
+</html>
