@@ -63,6 +63,12 @@ btn.addEventListener('click', function () {
         })
     })
 
+     // Instead of clicking text only, allow clicking entire task:
+    li.addEventListener('click', (e)=>{
+        if(e.target.tagName === 'BUTTON') return; 
+        span.classList.toggle('completed')
+    })
+
     //Build structure 
     cont.appendChild(editBtn)
     cont.appendChild(deletBtn)   
