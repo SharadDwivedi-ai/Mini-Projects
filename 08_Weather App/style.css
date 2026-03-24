@@ -1,0 +1,68 @@
+body {
+    background: linear-gradient(rgb(171, 211, 221), rgb(3, 223, 139));
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+h1 {
+    text-align: center;
+    font-weight: bolder;
+    color: rgb(236, 240, 241);
+    text-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+    margin: 50px 0;
+}
+
+#body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px;
+    height: 400px;
+    width: 500px;
+    flex: 1;
+    background: linear-gradient(rgb(230, 236, 232), rgb(12, 88, 50));
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+#inner {
+    display: flex;
+    gap: 25px;
+    margin-bottom: 20px;
+}
+
+input {
+    background-color: aliceblue;
+    border: 1px solid rgb(6, 141, 141);
+    padding: 10px;
+    font-size: large;
+    border-radius: 5px;
+}
+
+button {
+    background: linear-gradient(rgb(31, 192, 139), rgb(139, 231, 139));
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    font-size: large;
+    cursor: pointer;
+}
+
+button:hover {
+    background: linear-gradient(rgb(6, 230, 155), rgb(24, 211, 180));
+}
+
+ul {
+    margin-top: 10px;
+    list-style: none;
+    padding: 20px;
+    margin-top: 45px;
+    flex: 1;
+    overflow-y: auto;
+    color: white;
+}
